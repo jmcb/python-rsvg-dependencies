@@ -137,7 +137,7 @@ Source packages for each of these can be found at the following locations:
 
  - `freetype6`_
  - `libcairo-2`_
- - `libfontconfig-1 `_
+ - `libfontconfig-1`_
  - `libpng14-14`_
  - `zlib1`_
  - `intl`_
@@ -209,3 +209,4 @@ Source packages for each of these can be found at the following locations:
 .. _`librsvg-2-2`: http://ftp.gnome.org/pub/GNOME/sources/librsvg/
 .. _`libxml2-2`: http://ftp.acc.umu.se/pub/GNOME/sources/libxml2/
 .. _`iconv`: http://www.gnu.org/software/libiconv/
+.. _`python-rsvg (source)`: http://ftp.gnome.org/pub/GNOME/sources/gnome-python-desktop/
