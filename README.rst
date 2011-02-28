@@ -168,7 +168,7 @@ Source packages for each of these can be found at the following locations:
 .. _`GNU Lesser General Public License`: LICENSE-LGPL.TXT
 .. _`GNU Lesser General Public License v2.1`: LICENSE-LGPLV2.1.TXT
 .. _`Mozilla Public License`: LICENSE-CAIRO.TXT
-.. _`fontconfig`: LICENSE-FONTCONFIG.TXT
+.. _`fontconfig license`: LICENSE-FONTCONFIG.TXT
 .. _`libpng license`: LICENSE-LIBPNG.TXT
 .. _`zlib license`: LICENSE-ZLIB.TXT
 .. _`MIT License`: LICENSE-LXML2.TXT
