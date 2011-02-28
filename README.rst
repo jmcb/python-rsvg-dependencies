@@ -6,6 +6,25 @@ This package contains all of the files required to run the `python-rsvg`_ module
 compiled for Windows as provided by the GNOME Desktop Project's Windows binary
 archive.
 
+How to
+======
+
+Getting ``python-rsvg`` running on Microsoft Windows can be a little bit of a
+complicated task. Here's the steps you should follow in order to get it working
+straight away, without having to scratch around later trying to resolve
+dependencies and incorrect paths:
+
+ 1. Install `python-rsvg`_ from the binary package provided by the GNOME Project.
+ 2. Install `python-gobject`_, again from the GNOME Project.
+ 3. Resolve the ``python-rsvg`` path issue by installing `python-rsvg-fixup`_ [#]_.
+ 4. Resolve the ``python-rsvg`` dependencies by installing `python-rsvg-dependencies`_
+    (this module)
+
+.. [#] While the ``python-rsvg`` module properly installs a compiled copy of
+   ``rsvg.pyd``, it places it in ``site-packages/gtk-2.0`` and does not add
+   this folder to the ``$PYTHONPATH`` variable; therefore, while you have
+   ``python-rsvg`` installed, it's impossible to actually import it.
+
 Binaries
 ========
 
@@ -126,6 +145,7 @@ Binary packages were located at the following sources:
  - `libxml2-2.dll (1)`_, `libxml2-2.dll (2)`_
  - `iconv.dll`_
  - `python-rsvg`_
+ - `python-rsvg-dependencies`_
 
 Individual binaries from the GTK+ bundle can be found on the `GNOME Desktop
 Project's Windows binaries page`_.
@@ -156,6 +176,7 @@ Source packages for each of these can be found at the following locations:
  - `libxml2-2`_
  - `iconv`_
  - `python-rsvg (source)`_
+ - `python-rsvg-dependencies (source)`_ (this project)
 
 .. Links
 .. =====
@@ -184,7 +205,11 @@ Source packages for each of these can be found at the following locations:
 .. _`libxml2-2.dll (2)`: http://www.zlatkovic.com/libxml.en.html
 .. _`iconv.dll`: http://gnuwin32.sourceforge.net/packages/libiconv.htm
 .. _`GNOME Desktop Project's Windows binaries page`: http://ftp.gnome.org/pub/GNOME/binaries/win32/
-.. _`python-rsvg`: http://ftp.gnome.org/pub/GNOME/binaries/win32/gnome-python-desktop/2.32/
+.. _`python-rsvg`: http://ftp.gnome.org/pub/GNOME/binaries/win32/gnome-python-desktop/
+.. _`python-gobject`: http://ftp.gnome.org/pub/GNOME/binaries/win32/pygobject/
+.. _`python-cairo`: http://ftp.gnome.org/pub/GNOME/binaries/win32/pycairo/
+.. _`python-rsvg-fixup`: http://www.wxwhatever.com/jmcb/rsvg/rsvg_fixup-0.1.win32.exe
+.. _`python-rsvg-dependencies`: http://www.wxwhatever.com/jmcb/rsvg/rsvg-dependencies-0.1.win32.exe
 .. 
 .. Sources
 .. -------
@@ -210,3 +235,4 @@ Source packages for each of these can be found at the following locations:
 .. _`libxml2-2`: http://ftp.acc.umu.se/pub/GNOME/sources/libxml2/
 .. _`iconv`: http://www.gnu.org/software/libiconv/
 .. _`python-rsvg (source)`: http://ftp.gnome.org/pub/GNOME/sources/gnome-python-desktop/
+.. _`python-rsvg-depdencies (source)`: http://www.github.com/jmcb/python-rsvg-depedencies/
