@@ -17,16 +17,16 @@ def main ():
 
     others = ["README.rst", "LICENSE.rst"]
 
-    long_description = """    This package contains dynamic link dependencies required to run the
-    python-rsvg library (as provided by the gnome-python-desktop
-    package) on Windows. GNOME provides pre-build binaries for this
-    package for Windows Systems (see
-    <http://ftp.acc.umu.se/pub/GNOME/binaries/win32/gnome-python-desktop>)
-    but this package does not resolve all of the dependencies required
-    to actuall run it -- nor does it provide the librsvg dynamic link
-    library.
+    long_description = """This package contains dynamic link dependencies required to run the
+python-rsvg library (as provided by the gnome-python-desktop
+package) on Windows. GNOME provides pre-build binaries for this
+package for Windows Systems (see
+<http://ftp.acc.umu.se/pub/GNOME/binaries/win32/gnome-python-desktop>)
+but this package does not resolve all of the dependencies required
+to actually run it -- nor does it provide the librsvg dynamic link
+library.
 
-    Please see README.rst for more details."""
+Please see README.rst for more details."""
 
     classifiers = ["Development Status :: 6 - Mature",
         "Environment :: Win32 (MS Windows)",
