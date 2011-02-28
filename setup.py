@@ -44,7 +44,7 @@ def main ():
         download_url="http://www.wxwhatever.com/jmcb/rsvg", platforms="Microsoft Windows",
         description="Dynamic link library dependencies for pyrsvg.",
         license="GNU LGPLv2, MIT, MPL, FTL, FontConfig, libpng, zlib, others.",
-        data_files=[(".", dlls + licenses + others)],
+        data_files=[("lib/site-packages/gtk-2.0", dlls), ("doc/python-rsvg", licenses + others)],
         long_description=long_description, classifiers=classifiers)
 
 if __name__=="__main__":
