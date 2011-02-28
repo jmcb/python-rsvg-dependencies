@@ -184,15 +184,15 @@ Source packages for each of these can be found at the following locations:
 .. Licenses
 .. --------
 .. 
-.. _`FreeType license`: LICENSE-FTL.TXT
-.. _`GNU General Public License`: LICENSE-GPL.TXT
-.. _`GNU Lesser General Public License`: LICENSE-LGPL.TXT
-.. _`GNU Lesser General Public License v2.1`: LICENSE-LGPLV2.1.TXT
-.. _`Mozilla Public License`: LICENSE-CAIRO.TXT
-.. _`fontconfig license`: LICENSE-FONTCONFIG.TXT
-.. _`libpng license`: LICENSE-LIBPNG.TXT
-.. _`zlib license`: LICENSE-ZLIB.TXT
-.. _`MIT License`: LICENSE-LXML2.TXT
+.. _`FreeType license`: doc/LICENSE-FTL.TXT
+.. _`GNU General Public License`: doc/LICENSE-GPL.TXT
+.. _`GNU Lesser General Public License`: doc/LICENSE-LGPL.TXT
+.. _`GNU Lesser General Public License v2.1`: doc/LICENSE-LGPLV2.1.TXT
+.. _`Mozilla Public License`: doc/LICENSE-CAIRO.TXT
+.. _`fontconfig license`: doc/LICENSE-FONTCONFIG.TXT
+.. _`libpng license`: doc/LICENSE-LIBPNG.TXT
+.. _`zlib license`: doc/LICENSE-ZLIB.TXT
+.. _`MIT License`: doc/LICENSE-LXML2.TXT
 .. _`LICENSE.rst`: LICENSE.rst
 .. 
 .. Binaries
