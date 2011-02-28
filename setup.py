@@ -12,7 +12,7 @@ def main ():
         is importable.""", author="Jon McManus", author_email="jonathan@acss.net.au",
         url="http://github.com/jmcb/python-rsvg-dependencies/tree/pyrsvg-fixup",
         platforms="Microsoft Windows", download_url="http://www.wxwhatever.com/jmcb/rsvg",
-        data_files=[(".", "rsvg.pth")])
+        data_files=[(".", ["rsvg.pth"])])
 
 if __name__=="__main__":
     main()
